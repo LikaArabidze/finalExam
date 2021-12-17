@@ -1,0 +1,12 @@
+.middle{
+    
+    text-align: center;
+    margin-top: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px 50px;
+}

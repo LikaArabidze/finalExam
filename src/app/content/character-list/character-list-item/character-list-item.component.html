@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="item">
+    <h2>
+      {{character.name}}
+    </h2>
+     <img [src]="character.img">
+    <button (click)="goToDetails(character.id)" class="green">
+      Details...
+    </button>
+    <button (click)="deleteCharacter(character.id)" class="red">
+      Delete
+    </button>
+  </div>
+</div>

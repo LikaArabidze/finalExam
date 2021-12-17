@@ -1,0 +1,32 @@
+{
+    "TITLE": "Breaking Bad",
+    "errors": {
+      "NOT_FOUND": "გვერდი ვერ მოიძებნა",
+      "ENTER_CHARACTER_NAME": "გთხოვთ მიუთითოთ პერსონაჟის სახელი!",
+      "ENTER_VALID_CHARACTERS":"გთხოვთ შეიყვანეთ 10 სიმბოლოზე მეტი!",
+      "EMAIL_MANDATORY": "გთხოვთ შეიყვანოთ მეილი",
+      "PASSWORD_MANDATORY":"გთხოვთ შეიყვანოთ პაროლი"
+    },
+    "auth": {
+      "SIGN_IN": "შესვლა",
+      "SIGN_UP": "რეგისტრაცია",
+      "EMAIL": "ელ-ფოსტა",
+      "PASSWORD": "პაროლი",
+      "REPEAT_PASSWORD": "პაროლის გამეორება",
+      "SIGN_OUT": "გამოსვლა"
+    },
+    "catalogue": {
+      "ADD_CHARACTER": "პერსონაჟის დამატება",
+      "ENTER_CHARACTER_NAME": "ჩაწერეთ პერსონაჟის სახელი...",
+      "SEARCH": "ძებნა",
+      "VIEWED": "ნანახი",
+      "VIEW_LATER": "მოგვიანებით სანახავი",
+      "TOMORROW": "ხვალ",
+      "THIS_WEEK": "ამ კვირას",
+      "THIS_MONTH": "ამ თვეს",
+      "THIS_YEAR": "ამ წელს",
+      "SELECT": "არჩევა...",
+      "CHARACTER_HAS_BEEN_ADDED": "პერსონაჟი დაემატა",
+      "ENTER_REVIEW": "შეიყვანეთ განხილვა"
+    }
+  }

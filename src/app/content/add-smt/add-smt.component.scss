@@ -1,0 +1,71 @@
+.middle {
+    background-image: url("/assets/images/catalogue-bg.jpg");
+    background-size: 50%;
+  }
+  
+  main {
+    height: calc(100% - 60px);
+  }
+  
+  .search-form {
+    max-width: 400px;
+  }
+  
+  .alert {
+    margin-bottom: 0px !important;
+  }
+  
+  .badge {
+    cursor: pointer;
+  }
+  
+  .image {
+    width: 300px;
+  }
+
+  .checked {
+
+    color: orange;
+  }
+
+  .star{
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  .title{
+    margin-right: 10px;
+  }
+
+  .character{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .review{
+      width: 400px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 80px 0px;
+    
+      .add{
+        width: 200px;
+        height:50px;
+        border: none;
+        border-radius: 5px;
+        background-color: green;
+        color: honeydew;
+        cursor: pointer;
+        
+        &:disabled{
+          background-color: grey;
+          cursor: initial;
+        }
+      }
+    }
+  }
+
+

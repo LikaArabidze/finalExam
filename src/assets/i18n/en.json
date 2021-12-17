@@ -1,0 +1,33 @@
+{
+    "TITLE": "Breaking Bad",
+    "errors": {
+      "NOT_FOUND": "Page not found",
+      "ENTER_CHARACTER_NAME": "You must enter character name!",
+      "ENTER_VALID_CHARACTERS":"Please enter more than ten characters",
+      "EMAIL_MANDATORY":"Please enter your email",
+      "PASSWORD_MANDATORY":"Please enter your password"
+    },
+    "auth": {
+      "SIGN_IN": "Sign In",
+      "SIGN_UP": "Sign Up",
+      "EMAIL": "Email",
+      "PASSWORD": "Password",
+      "REPEAT_PASSWORD": "Repeat Password",
+      "SIGN_OUT": "Sign Out"
+    },
+    "catalogue": {
+      "ADD_CHARACTER": "Add Character",
+      "ENTER_CHARACTER_NAME": "Enter Character Name...",
+      "SEARCH": "Search",
+      "VIEWED": "viewed",
+      "VIEW_LATER": "View Later",
+      "TOMORROW": "Tomorrow",
+      "THIS_WEEK": "This Week",
+      "THIS_MONTH": "This Month",
+      "THIS_YEAR": "This Year",
+      "SELECT": "Select...",
+      "CHARACTER_HAS_BEEN_ADDED": "Character has been added",
+      "ENTER_REVIEW": "Enter Review..."
+    }
+    
+  }

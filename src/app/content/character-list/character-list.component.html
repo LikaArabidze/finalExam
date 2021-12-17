@@ -1,0 +1,12 @@
+<p *ngIf="!characterList?.length; else list" class="middle">
+  No characters yet
+</p>
+<ng-template #list >
+  <div class="content">
+  <div *ngFor="let character of characterList">
+    <app-character-list-item [character]="character" (itemDeleted)="getCharacters()">
+
+    </app-character-list-item>
+  </div>
+</div>
+</ng-template>

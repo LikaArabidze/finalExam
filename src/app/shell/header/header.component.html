@@ -1,0 +1,38 @@
+<header>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <img src="/assets/images/logo.jpg" class= "me-2" />
+        <strong>{{ "TITLE" | translate }}</strong>
+      </a> 
+      
+      <div>
+        <div class="d-flex align-items-center">
+          <ng-container *ngIf="!isLoggedIn">
+            <button (click)="goToSignIn()" class="btn btn-outline-light me-2">
+              {{ "auth.SIGN_IN" | translate }}
+            </button>
+            <button (click)="goToSignUp()" class="btn btn-outline-light">
+              {{ "auth.SIGN_UP" | translate }}
+            </button>
+          </ng-container>
+            <button *ngIf="isLoggedIn" (click)="signOut()" class="btn btn-danger">
+              {{ "auth.SIGN_OUT" | translate }}
+            </button>
+
+          <button
+            class="lang en ms-2"
+            [class.inactive]="isKa"
+            (click)="en()"
+          ></button>
+          <button
+            class="lang ka ms-2"
+            [class.inactive]="isEn"
+            (click)="ka()"
+          ></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+   

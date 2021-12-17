@@ -1,0 +1,38 @@
+.container{
+    width: 300px;
+    height: 400px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(166, 184, 207, 0.5);
+    border: none;
+
+    .item{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+        img {
+            width:  160px;
+            height: 180px;
+        }
+        button{
+            width: 200px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    &.green{
+
+        background-color: #004b00;
+    }
+    &.red{
+
+        background-color: rgb(187, 9, 9);
+    }
+        }
+    }
+}

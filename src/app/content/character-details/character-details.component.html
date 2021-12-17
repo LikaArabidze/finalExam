@@ -1,0 +1,53 @@
+<div *ngIf="character$ | async as character">
+  <button (click)="goBack()" class="button">Go Back</button>
+  <div class="container">
+    <img [src]="character.img" />
+    <div class="info">
+      <div class="row">
+        <div class="title" >Name:</div>
+        <div class="value" >
+          {{ character.name }}
+        </div>
+      </div> 
+      <div class="row">
+        <div class="title">Portrayed:</div>
+        <div class="value">{{character.portrayed}}</div>
+      </div>
+      <div class="row">
+        <div class="title">Nickname:</div>
+        <div class="value">{{character.nickname}}</div>
+      </div>
+      <div class="row">
+        <div class="title">Birthday:</div>
+        <div class="value">
+          {{ character.birthday }}
+        </div>
+      </div>
+      <div class="row">
+        <div class="title">Occupation:</div>
+        <div class="value">
+          {{ character.occupation.join(", ") }}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="title">Status:</div>
+        <div class="value">
+          {{ character.status }}
+        </div>
+      </div>
+      <div class="row">
+        <div class="title">Review:</div>
+        <div class="value">
+          {{ character.review }}
+        </div>
+      </div>
+      <div class="row">
+        <div class="title">Rating</div>
+        <div class="value">
+          {{character.rating}}/5
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

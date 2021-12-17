@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "final-musicproject": {
+      "hosting": {
+        "final-musicProject": [
+          "final-musicproject"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "final-musicproject"
+  }
+}
