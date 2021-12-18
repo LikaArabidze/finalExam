@@ -5,10 +5,10 @@
     </h2>
      <img [src]="character.img">
     <button (click)="goToDetails(character.id)" class="green">
-      Details...
+      {{ "catalogue.DETAILS" | translate}}
     </button>
     <button (click)="deleteCharacter(character.id)" class="red">
-      Delete
+      {{"catalogue.DELETE" | translate}}
     </button>
   </div>
 </div>

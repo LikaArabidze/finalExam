@@ -50,40 +50,43 @@
           "auth.REPEAT_PASSWORD" | translate
         }}</label>
       </div>
-      <button class="w-100 btn btn-lg btn-outline-secondary button" type="submit">
+      <button
+        class="w-100 btn btn-lg btn-outline-secondary button"
+        type="submit"
+      >
         {{ "auth.SIGN_UP" | translate }}
       </button>
-      
-       <ng-container *ngIf="form.submitted && form.invalid">
-       <div
+
+      <ng-container *ngIf="form.submitted && form.invalid">
+        <div
           class="alert alert-danger mt-3 mb-2"
           role="alert"
           *ngIf="form.controls.email?.errors?.required"
         >
-          იმეილი სავალდებულოა
-        </div> 
+        {{ "errors.EMAIL_MANDATORY" | translate }}
+        </div>
         <div
           class="alert alert-danger mt-1"
           role="alert"
           *ngIf="form.controls.password?.errors?.required"
         >
-          პაროლი სავალდებულოა
+        {{ "errors.PASSWORD_MANDATORY" | translate }}
         </div>
         <div
           class="alert alert-danger mt-1"
           role="alert"
           *ngIf="form.controls.repeatPassword?.errors?.required"
         >
-          გთხოვთ გაიმეოროთ პაროლი
+        {{ "errors.REPEAT_PASSWORD" | translate }}
         </div>
         <div
           class="alert alert-danger mt-1"
           role="alert"
           *ngIf="form.controls.repeatPassword?.errors?.mustMatch"
         >
-          პაროლები ერთმანეთს არ ემთხვევა
+        {{ "errors.REPEAT_PASSWORD" | translate }}
         </div>
-      </ng-container>  
+      </ng-container>
     </form>
   </section>
 </main>

@@ -5,7 +5,9 @@
       "ENTER_CHARACTER_NAME": "გთხოვთ მიუთითოთ პერსონაჟის სახელი!",
       "ENTER_VALID_CHARACTERS":"გთხოვთ შეიყვანეთ 10 სიმბოლოზე მეტი!",
       "EMAIL_MANDATORY": "გთხოვთ შეიყვანოთ მეილი",
-      "PASSWORD_MANDATORY":"გთხოვთ შეიყვანოთ პაროლი"
+      "PASSWORD_MANDATORY":"გთხოვთ შეიყვანოთ პაროლი",
+      "REPEAT_PASSWORD": "გთხოვთ გაიმეოროთ პაროლი",
+      "MUST_MATCH_PASSWORD":"პაროლები ერთმანეთს არ ემთხვევა"
     },
     "auth": {
       "SIGN_IN": "შესვლა",
@@ -27,6 +29,20 @@
       "THIS_YEAR": "ამ წელს",
       "SELECT": "არჩევა...",
       "CHARACTER_HAS_BEEN_ADDED": "პერსონაჟი დაემატა",
-      "ENTER_REVIEW": "შეიყვანეთ განხილვა"
+      "ENTER_REVIEW": "შეიყვანეთ განხილვა",
+      "NO_CHARACTERS_YET": "თქვენ ჯერ არ დაგიმატებიათ პერსონაჟი",
+      "DETAILS": "დეტალები",
+      "DELETE": "წაშლა",
+      "NAME":"სახელი:",
+      "PORTRAYED": "მსახიობი:",
+      "BIRTHDAY":"დაბადების დღე:",
+      "NICKNAME":"ზედმეტსახელი:",
+      "OCCUPATION": "საქმიანობა:",
+      "REVIEW": "განხილვა:",
+      "STATUS": "სტატუსი:",
+      "RATING": "რეიტინგი:",
+      "GO_BACK": "უკან დაბრუნება",
+      "ADD":"დამატება"
+
     }
   }

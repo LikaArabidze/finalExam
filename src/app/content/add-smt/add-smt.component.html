@@ -1,5 +1,5 @@
-<main>
-  <section class="py-3 text-center middle">
+<main class ="middle">
+  <section class="py-3 text-center">
     <div class="col-lg-6 col-md-8 mx-auto">
       <h1 class="fw-light text-white">
         {{ "catalogue.ADD_CHARACTER" | translate }}
@@ -18,7 +18,7 @@
             placeholder="{{ 'catalogue.ENTER_CHARACTER_NAME' | translate }}"
           />
 
-          <button class="btn btn-outline-secondary mt-2" (click)="search()">
+          <button class="btn btn-outline-secondary mt-2 button" (click)="search()">
             {{ "catalogue.SEARCH" | translate }}
           </button>
           <div
@@ -71,15 +71,17 @@
               <div
                 class="alert alert-danger mt-2"
                 role="alert"
-                *ngIf="formHasError && selectedCharacter.char_id === selectedCharacterId"
+                *ngIf="
+                  formHasError &&
+                  selectedCharacter.char_id === selectedCharacterId
+                "
               >
                 {{ "errors.ENTER_VALID_CHARACTERS" | translate }}
               </div>
 
               <div>
-                <span class="title">Rating:</span>
+                <span class="title">{{"catalogue.RATING" | translate}}</span>
                 <span
-            
                   (click)="selectedCharacter.rating = star"
                   *ngFor="let star of stars"
                   class="fa fa-star star"
@@ -87,7 +89,13 @@
                 ></span>
               </div>
 
-              <button (click)="addCharacter(selectedCharacter)" class="add" [disabled]="isLoading">Add</button>
+              <button
+                (click)="addCharacter(selectedCharacter)"
+                class="add"
+                [disabled]="isLoading"
+              >
+              {{"catalogue.ADD" | translate}}
+              </button>
             </div>
           </div>
         </div>

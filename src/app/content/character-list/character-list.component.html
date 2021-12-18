@@ -1,5 +1,5 @@
 <p *ngIf="!characterList?.length; else list" class="middle">
-  No characters yet
+  {{ "catalogue.NO_CHARACTERS_YET" | translate}}
 </p>
 <ng-template #list >
   <div class="content">
